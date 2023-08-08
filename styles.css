@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+}
+header {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.profile-image {
+    border-radius: 40%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+    border: 2px solid #35424a;
+}
+h2 {
+    color: #35424a;
+    margin-top: 1.5rem;
+}
+p {
+    line-height: 1.6;
+    color: #606b75;
+}
+.skills strong {
+    color: #54626b;
+    font-weight: bold;
+}
+.photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.photo {
+    flex: 1;
+    margin: 0 1rem;
+}
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+.dark {
+    color: #54626b;
+}
